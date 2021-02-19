@@ -1,0 +1,109 @@
+body{
+background-color: rgb(240,240,240);
+color: rgb(100,100,100);
+font-family: times;
+font-size: 25px;
+}
+
+/* N O T E S
+h1, h2{
+  background-color: orange;
+} */
+
+h1{
+  color: rgb(50,50,50);
+  font-family: copperplate;
+  font-weight: 70;
+  text-transform: capitalize;
+}
+h2{
+  color: rgb(50,50,50);
+  letter-spacing: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+
+a:hover{
+  font-weight: lighter;
+}
+
+/* Responsive Design*/
+
+.container {
+  width: 800px
+  margin: 40px auto;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-grey {
+  background: rgb(250,250,250);
+  padding: 50px;
+  margin: 40px auto;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+  border-radius: 3px;
+  width: 800px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+.btn-black {
+  background-color: grey;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-black:hover {
+  background-color: black;
+  color: orange;
+  font-weight: lighter;
+}
+
+.list-inline {
+  list-style: none;
+  color: rgb(70,70,70);
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: rgb(150,150,150);
+}
+
+.list-inline i:hover{
+  display: inline;
+  padding: 10px;
+  color: orange;
+}
+
+#introduction p {
+margin-bottom: 50px
+
+
+}
